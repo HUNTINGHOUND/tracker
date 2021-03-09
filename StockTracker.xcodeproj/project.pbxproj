@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9085E8D325F7745A00C0E1F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8D225F7745A00C0E1F0 /* main.cpp */; };
+		9085E8DE25F7747E00C0E1F0 /* tracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8DD25F7747E00C0E1F0 /* tracker.cpp */; };
+		9085E8EF25F7763200C0E1F0 /* CSVFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8EE25F7763200C0E1F0 /* CSVFile.cpp */; };
+		9085E8F425F7768F00C0E1F0 /* CSVrow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8F325F7768F00C0E1F0 /* CSVrow.cpp */; };
+		9085E8F825F776B100C0E1F0 /* DataFeeder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8F725F776B100C0E1F0 /* DataFeeder.cpp */; };
+		9085E8FB25F776C500C0E1F0 /* Email.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8FA25F776C500C0E1F0 /* Email.cpp */; };
+		9085E8FE25F7786800C0E1F0 /* HistoryAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E8FD25F7786800C0E1F0 /* HistoryAnalyzer.cpp */; };
+		9085E90125F7787A00C0E1F0 /* JSONProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90025F7787A00C0E1F0 /* JSONProcessor.cpp */; };
+		9085E90425F7788A00C0E1F0 /* Oauth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90325F7788A00C0E1F0 /* Oauth.cpp */; };
+		9085E90725F778C100C0E1F0 /* RSITool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90625F778C100C0E1F0 /* RSITool.cpp */; };
+		9085E90A25F778D300C0E1F0 /* Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90925F778D300C0E1F0 /* Settings.cpp */; };
+		9085E90D25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90C25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +34,31 @@
 
 /* Begin PBXFileReference section */
 		9085E8CF25F7745A00C0E1F0 /* StockTracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StockTracker; sourceTree = BUILT_PRODUCTS_DIR; };
-		9085E8D225F7745A00C0E1F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9085E8DD25F7747E00C0E1F0 /* tracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tracker.cpp; sourceTree = "<group>"; };
+		9085E8E125F7749900C0E1F0 /* JSONProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JSONProcessor.hpp; sourceTree = "<group>"; };
+		9085E8E225F774EA00C0E1F0 /* AccountList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AccountList.hpp; sourceTree = "<group>"; };
+		9085E8E325F7750100C0E1F0 /* CSVFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSVFile.hpp; sourceTree = "<group>"; };
+		9085E8E425F7751900C0E1F0 /* DataFeeder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DataFeeder.hpp; sourceTree = "<group>"; };
+		9085E8E525F7752B00C0E1F0 /* Email.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Email.hpp; sourceTree = "<group>"; };
+		9085E8E625F7753D00C0E1F0 /* HistoryAnalyzer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HistoryAnalyzer.hpp; sourceTree = "<group>"; };
+		9085E8E725F7755400C0E1F0 /* Oauth.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Oauth.hpp; sourceTree = "<group>"; };
+		9085E8E825F7759800C0E1F0 /* OHLC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OHLC.hpp; sourceTree = "<group>"; };
+		9085E8E925F775AE00C0E1F0 /* Order.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Order.hpp; sourceTree = "<group>"; };
+		9085E8EA25F775C000C0E1F0 /* Pattern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pattern.hpp; sourceTree = "<group>"; };
+		9085E8EB25F775DA00C0E1F0 /* RSITool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RSITool.hpp; sourceTree = "<group>"; };
+		9085E8EC25F775F200C0E1F0 /* Settings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Settings.hpp; sourceTree = "<group>"; };
+		9085E8ED25F7761500C0E1F0 /* SnapshotAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapshotAnalyzer.h; sourceTree = "<group>"; };
+		9085E8EE25F7763200C0E1F0 /* CSVFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVFile.cpp; sourceTree = "<group>"; };
+		9085E8F225F7765900C0E1F0 /* CSVrow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSVrow.hpp; sourceTree = "<group>"; };
+		9085E8F325F7768F00C0E1F0 /* CSVrow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVrow.cpp; sourceTree = "<group>"; };
+		9085E8F725F776B100C0E1F0 /* DataFeeder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataFeeder.cpp; sourceTree = "<group>"; };
+		9085E8FA25F776C500C0E1F0 /* Email.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Email.cpp; sourceTree = "<group>"; };
+		9085E8FD25F7786800C0E1F0 /* HistoryAnalyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HistoryAnalyzer.cpp; sourceTree = "<group>"; };
+		9085E90025F7787A00C0E1F0 /* JSONProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JSONProcessor.cpp; sourceTree = "<group>"; };
+		9085E90325F7788A00C0E1F0 /* Oauth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Oauth.cpp; sourceTree = "<group>"; };
+		9085E90625F778C100C0E1F0 /* RSITool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RSITool.cpp; sourceTree = "<group>"; };
+		9085E90925F778D300C0E1F0 /* Settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Settings.cpp; sourceTree = "<group>"; };
+		9085E90C25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SnapshotAnalyzer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +91,49 @@
 		9085E8D125F7745A00C0E1F0 /* StockTracker */ = {
 			isa = PBXGroup;
 			children = (
-				9085E8D225F7745A00C0E1F0 /* main.cpp */,
+				9085E8DC25F7746E00C0E1F0 /* include */,
+				9085E8DB25F7746900C0E1F0 /* src */,
+				9085E8DD25F7747E00C0E1F0 /* tracker.cpp */,
 			);
 			path = StockTracker;
+			sourceTree = "<group>";
+		};
+		9085E8DB25F7746900C0E1F0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9085E8EE25F7763200C0E1F0 /* CSVFile.cpp */,
+				9085E8F325F7768F00C0E1F0 /* CSVrow.cpp */,
+				9085E8F725F776B100C0E1F0 /* DataFeeder.cpp */,
+				9085E8FA25F776C500C0E1F0 /* Email.cpp */,
+				9085E8FD25F7786800C0E1F0 /* HistoryAnalyzer.cpp */,
+				9085E90025F7787A00C0E1F0 /* JSONProcessor.cpp */,
+				9085E90325F7788A00C0E1F0 /* Oauth.cpp */,
+				9085E90625F778C100C0E1F0 /* RSITool.cpp */,
+				9085E90925F778D300C0E1F0 /* Settings.cpp */,
+				9085E90C25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9085E8DC25F7746E00C0E1F0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9085E8E125F7749900C0E1F0 /* JSONProcessor.hpp */,
+				9085E8E225F774EA00C0E1F0 /* AccountList.hpp */,
+				9085E8E325F7750100C0E1F0 /* CSVFile.hpp */,
+				9085E8E425F7751900C0E1F0 /* DataFeeder.hpp */,
+				9085E8E525F7752B00C0E1F0 /* Email.hpp */,
+				9085E8E625F7753D00C0E1F0 /* HistoryAnalyzer.hpp */,
+				9085E8E725F7755400C0E1F0 /* Oauth.hpp */,
+				9085E8E825F7759800C0E1F0 /* OHLC.hpp */,
+				9085E8E925F775AE00C0E1F0 /* Order.hpp */,
+				9085E8EA25F775C000C0E1F0 /* Pattern.hpp */,
+				9085E8EB25F775DA00C0E1F0 /* RSITool.hpp */,
+				9085E8EC25F775F200C0E1F0 /* Settings.hpp */,
+				9085E8ED25F7761500C0E1F0 /* SnapshotAnalyzer.h */,
+				9085E8F225F7765900C0E1F0 /* CSVrow.hpp */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9085E8D325F7745A00C0E1F0 /* main.cpp in Sources */,
+				9085E90125F7787A00C0E1F0 /* JSONProcessor.cpp in Sources */,
+				9085E8F825F776B100C0E1F0 /* DataFeeder.cpp in Sources */,
+				9085E90A25F778D300C0E1F0 /* Settings.cpp in Sources */,
+				9085E8F425F7768F00C0E1F0 /* CSVrow.cpp in Sources */,
+				9085E90425F7788A00C0E1F0 /* Oauth.cpp in Sources */,
+				9085E8FE25F7786800C0E1F0 /* HistoryAnalyzer.cpp in Sources */,
+				9085E8EF25F7763200C0E1F0 /* CSVFile.cpp in Sources */,
+				9085E90D25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp in Sources */,
+				9085E90725F778C100C0E1F0 /* RSITool.cpp in Sources */,
+				9085E8FB25F776C500C0E1F0 /* Email.cpp in Sources */,
+				9085E8DE25F7747E00C0E1F0 /* tracker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
