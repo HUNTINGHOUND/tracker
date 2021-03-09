@@ -21,13 +21,13 @@
 		9085E91F25F779C900C0E1F0 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91E25F779C900C0E1F0 /* libssl.a */; };
 		9085E92225F779E900C0E1F0 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92125F779E900C0E1F0 /* libcurl.a */; };
 		9085E92525F77A1900C0E1F0 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92425F77A1900C0E1F0 /* libcrypto.a */; };
-		9085E92A25F77B3100C0E1F0 /* libPocoFoundationd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92925F77B3100C0E1F0 /* libPocoFoundationd.a */; };
-		9085E93425F77BAD00C0E1F0 /* libPocoXMLd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92E25F77BAD00C0E1F0 /* libPocoXMLd.a */; };
-		9085E93525F77BAD00C0E1F0 /* libPocoNetSSLd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92F25F77BAD00C0E1F0 /* libPocoNetSSLd.a */; };
-		9085E93625F77BAD00C0E1F0 /* libPocoCryptod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93025F77BAD00C0E1F0 /* libPocoCryptod.a */; };
-		9085E93725F77BAD00C0E1F0 /* libPocoJSONd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93125F77BAD00C0E1F0 /* libPocoJSONd.a */; };
-		9085E93825F77BAD00C0E1F0 /* libPocoUtild.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93225F77BAD00C0E1F0 /* libPocoUtild.a */; };
-		9085E93925F77BAD00C0E1F0 /* libPocoNetd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93325F77BAD00C0E1F0 /* libPocoNetd.a */; };
+		9085E93E25F77D5500C0E1F0 /* libPocoCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91225F7799100C0E1F0 /* libPocoCrypto.a */; };
+		9085E93F25F77D5500C0E1F0 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91025F7799100C0E1F0 /* libPocoFoundation.a */; };
+		9085E94025F77D5500C0E1F0 /* libPocoJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91325F7799100C0E1F0 /* libPocoJSON.a */; };
+		9085E94125F77D5500C0E1F0 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91125F7799100C0E1F0 /* libPocoNet.a */; };
+		9085E94225F77D5500C0E1F0 /* libPocoNetSSL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91425F7799100C0E1F0 /* libPocoNetSSL.a */; };
+		9085E94325F77D5500C0E1F0 /* libPocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91525F7799100C0E1F0 /* libPocoUtil.a */; };
+		9085E94425F77D5500C0E1F0 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91625F7799100C0E1F0 /* libPocoXML.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,13 +93,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9085E93425F77BAD00C0E1F0 /* libPocoXMLd.a in Frameworks */,
-				9085E93725F77BAD00C0E1F0 /* libPocoJSONd.a in Frameworks */,
-				9085E92A25F77B3100C0E1F0 /* libPocoFoundationd.a in Frameworks */,
-				9085E93925F77BAD00C0E1F0 /* libPocoNetd.a in Frameworks */,
-				9085E93825F77BAD00C0E1F0 /* libPocoUtild.a in Frameworks */,
-				9085E93625F77BAD00C0E1F0 /* libPocoCryptod.a in Frameworks */,
-				9085E93525F77BAD00C0E1F0 /* libPocoNetSSLd.a in Frameworks */,
+				9085E93E25F77D5500C0E1F0 /* libPocoCrypto.a in Frameworks */,
+				9085E93F25F77D5500C0E1F0 /* libPocoFoundation.a in Frameworks */,
+				9085E94025F77D5500C0E1F0 /* libPocoJSON.a in Frameworks */,
+				9085E94125F77D5500C0E1F0 /* libPocoNet.a in Frameworks */,
+				9085E94225F77D5500C0E1F0 /* libPocoNetSSL.a in Frameworks */,
+				9085E94325F77D5500C0E1F0 /* libPocoUtil.a in Frameworks */,
+				9085E94425F77D5500C0E1F0 /* libPocoXML.a in Frameworks */,
 				9085E92525F77A1900C0E1F0 /* libcrypto.a in Frameworks */,
 				9085E92225F779E900C0E1F0 /* libcurl.a in Frameworks */,
 				9085E91F25F779C900C0E1F0 /* libssl.a in Frameworks */,
