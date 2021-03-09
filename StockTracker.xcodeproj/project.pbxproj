@@ -18,6 +18,16 @@
 		9085E90725F778C100C0E1F0 /* RSITool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90625F778C100C0E1F0 /* RSITool.cpp */; };
 		9085E90A25F778D300C0E1F0 /* Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90925F778D300C0E1F0 /* Settings.cpp */; };
 		9085E90D25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9085E90C25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp */; };
+		9085E91F25F779C900C0E1F0 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E91E25F779C900C0E1F0 /* libssl.a */; };
+		9085E92225F779E900C0E1F0 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92125F779E900C0E1F0 /* libcurl.a */; };
+		9085E92525F77A1900C0E1F0 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92425F77A1900C0E1F0 /* libcrypto.a */; };
+		9085E92A25F77B3100C0E1F0 /* libPocoFoundationd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92925F77B3100C0E1F0 /* libPocoFoundationd.a */; };
+		9085E93425F77BAD00C0E1F0 /* libPocoXMLd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92E25F77BAD00C0E1F0 /* libPocoXMLd.a */; };
+		9085E93525F77BAD00C0E1F0 /* libPocoNetSSLd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E92F25F77BAD00C0E1F0 /* libPocoNetSSLd.a */; };
+		9085E93625F77BAD00C0E1F0 /* libPocoCryptod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93025F77BAD00C0E1F0 /* libPocoCryptod.a */; };
+		9085E93725F77BAD00C0E1F0 /* libPocoJSONd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93125F77BAD00C0E1F0 /* libPocoJSONd.a */; };
+		9085E93825F77BAD00C0E1F0 /* libPocoUtild.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93225F77BAD00C0E1F0 /* libPocoUtild.a */; };
+		9085E93925F77BAD00C0E1F0 /* libPocoNetd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9085E93325F77BAD00C0E1F0 /* libPocoNetd.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +57,6 @@
 		9085E8EA25F775C000C0E1F0 /* Pattern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pattern.hpp; sourceTree = "<group>"; };
 		9085E8EB25F775DA00C0E1F0 /* RSITool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RSITool.hpp; sourceTree = "<group>"; };
 		9085E8EC25F775F200C0E1F0 /* Settings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Settings.hpp; sourceTree = "<group>"; };
-		9085E8ED25F7761500C0E1F0 /* SnapshotAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapshotAnalyzer.h; sourceTree = "<group>"; };
 		9085E8EE25F7763200C0E1F0 /* CSVFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVFile.cpp; sourceTree = "<group>"; };
 		9085E8F225F7765900C0E1F0 /* CSVrow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CSVrow.hpp; sourceTree = "<group>"; };
 		9085E8F325F7768F00C0E1F0 /* CSVrow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CSVrow.cpp; sourceTree = "<group>"; };
@@ -59,6 +68,24 @@
 		9085E90625F778C100C0E1F0 /* RSITool.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RSITool.cpp; sourceTree = "<group>"; };
 		9085E90925F778D300C0E1F0 /* Settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Settings.cpp; sourceTree = "<group>"; };
 		9085E90C25F778EC00C0E1F0 /* SnapshotAnalyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SnapshotAnalyzer.cpp; sourceTree = "<group>"; };
+		9085E91025F7799100C0E1F0 /* libPocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoFoundation.a; path = ../../../../usr/local/lib/libPocoFoundation.a; sourceTree = "<group>"; };
+		9085E91125F7799100C0E1F0 /* libPocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNet.a; path = ../../../../usr/local/lib/libPocoNet.a; sourceTree = "<group>"; };
+		9085E91225F7799100C0E1F0 /* libPocoCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoCrypto.a; path = ../../../../usr/local/lib/libPocoCrypto.a; sourceTree = "<group>"; };
+		9085E91325F7799100C0E1F0 /* libPocoJSON.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoJSON.a; path = ../../../../usr/local/lib/libPocoJSON.a; sourceTree = "<group>"; };
+		9085E91425F7799100C0E1F0 /* libPocoNetSSL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNetSSL.a; path = ../../../../usr/local/lib/libPocoNetSSL.a; sourceTree = "<group>"; };
+		9085E91525F7799100C0E1F0 /* libPocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoUtil.a; path = ../../../../usr/local/lib/libPocoUtil.a; sourceTree = "<group>"; };
+		9085E91625F7799100C0E1F0 /* libPocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoXML.a; path = ../../../../usr/local/lib/libPocoXML.a; sourceTree = "<group>"; };
+		9085E91E25F779C900C0E1F0 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../../../../usr/local/Cellar/openssl@1.1/1.1.1i/lib/libssl.a"; sourceTree = "<group>"; };
+		9085E92125F779E900C0E1F0 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../../../usr/local/Cellar/curl/7.74.0/lib/libcurl.a; sourceTree = "<group>"; };
+		9085E92425F77A1900C0E1F0 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../../../usr/local/Cellar/openssl@1.1/1.1.1i/lib/libcrypto.a"; sourceTree = "<group>"; };
+		9085E92725F77AC700C0E1F0 /* SnapshotAnalyzer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SnapshotAnalyzer.hpp; sourceTree = "<group>"; };
+		9085E92925F77B3100C0E1F0 /* libPocoFoundationd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoFoundationd.a; path = ../../../../usr/local/lib/libPocoFoundationd.a; sourceTree = "<group>"; };
+		9085E92E25F77BAD00C0E1F0 /* libPocoXMLd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoXMLd.a; path = ../../../../usr/local/lib/libPocoXMLd.a; sourceTree = "<group>"; };
+		9085E92F25F77BAD00C0E1F0 /* libPocoNetSSLd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNetSSLd.a; path = ../../../../usr/local/lib/libPocoNetSSLd.a; sourceTree = "<group>"; };
+		9085E93025F77BAD00C0E1F0 /* libPocoCryptod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoCryptod.a; path = ../../../../usr/local/lib/libPocoCryptod.a; sourceTree = "<group>"; };
+		9085E93125F77BAD00C0E1F0 /* libPocoJSONd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoJSONd.a; path = ../../../../usr/local/lib/libPocoJSONd.a; sourceTree = "<group>"; };
+		9085E93225F77BAD00C0E1F0 /* libPocoUtild.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoUtild.a; path = ../../../../usr/local/lib/libPocoUtild.a; sourceTree = "<group>"; };
+		9085E93325F77BAD00C0E1F0 /* libPocoNetd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNetd.a; path = ../../../../usr/local/lib/libPocoNetd.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +93,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9085E93425F77BAD00C0E1F0 /* libPocoXMLd.a in Frameworks */,
+				9085E93725F77BAD00C0E1F0 /* libPocoJSONd.a in Frameworks */,
+				9085E92A25F77B3100C0E1F0 /* libPocoFoundationd.a in Frameworks */,
+				9085E93925F77BAD00C0E1F0 /* libPocoNetd.a in Frameworks */,
+				9085E93825F77BAD00C0E1F0 /* libPocoUtild.a in Frameworks */,
+				9085E93625F77BAD00C0E1F0 /* libPocoCryptod.a in Frameworks */,
+				9085E93525F77BAD00C0E1F0 /* libPocoNetSSLd.a in Frameworks */,
+				9085E92525F77A1900C0E1F0 /* libcrypto.a in Frameworks */,
+				9085E92225F779E900C0E1F0 /* libcurl.a in Frameworks */,
+				9085E91F25F779C900C0E1F0 /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +114,7 @@
 			children = (
 				9085E8D125F7745A00C0E1F0 /* StockTracker */,
 				9085E8D025F7745A00C0E1F0 /* Products */,
+				9085E90F25F7799100C0E1F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,10 +168,34 @@
 				9085E8EA25F775C000C0E1F0 /* Pattern.hpp */,
 				9085E8EB25F775DA00C0E1F0 /* RSITool.hpp */,
 				9085E8EC25F775F200C0E1F0 /* Settings.hpp */,
-				9085E8ED25F7761500C0E1F0 /* SnapshotAnalyzer.h */,
 				9085E8F225F7765900C0E1F0 /* CSVrow.hpp */,
+				9085E92725F77AC700C0E1F0 /* SnapshotAnalyzer.hpp */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		9085E90F25F7799100C0E1F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9085E93025F77BAD00C0E1F0 /* libPocoCryptod.a */,
+				9085E93125F77BAD00C0E1F0 /* libPocoJSONd.a */,
+				9085E93325F77BAD00C0E1F0 /* libPocoNetd.a */,
+				9085E92F25F77BAD00C0E1F0 /* libPocoNetSSLd.a */,
+				9085E93225F77BAD00C0E1F0 /* libPocoUtild.a */,
+				9085E92E25F77BAD00C0E1F0 /* libPocoXMLd.a */,
+				9085E92925F77B3100C0E1F0 /* libPocoFoundationd.a */,
+				9085E92425F77A1900C0E1F0 /* libcrypto.a */,
+				9085E92125F779E900C0E1F0 /* libcurl.a */,
+				9085E91E25F779C900C0E1F0 /* libssl.a */,
+				9085E91225F7799100C0E1F0 /* libPocoCrypto.a */,
+				9085E91025F7799100C0E1F0 /* libPocoFoundation.a */,
+				9085E91325F7799100C0E1F0 /* libPocoJSON.a */,
+				9085E91125F7799100C0E1F0 /* libPocoNet.a */,
+				9085E91425F7799100C0E1F0 /* libPocoNetSSL.a */,
+				9085E91525F7799100C0E1F0 /* libPocoUtil.a */,
+				9085E91625F7799100C0E1F0 /* libPocoXML.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +322,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/Cellar/curl/7.74.0/include,
+					"/usr/local/Cellar/openssl@1.1/1.1.1i/include",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -313,6 +380,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/Cellar/curl/7.74.0/include,
+					"/usr/local/Cellar/openssl@1.1/1.1.1i/include",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -324,6 +396,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/openssl@1.1/1.1.1i/lib",
+					/usr/local/Cellar/curl/7.74.0/lib,
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -332,6 +410,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/openssl@1.1/1.1.1i/lib",
+					/usr/local/Cellar/curl/7.74.0/lib,
+					/usr/local/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
